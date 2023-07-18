@@ -1,0 +1,9 @@
+.navMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navMenu ul{
+    display: flex;
+    gap: 32px;
+}

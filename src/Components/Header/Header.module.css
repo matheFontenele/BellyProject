@@ -1,0 +1,17 @@
+.header{
+    background: linear-gradient(94.59deg, #007356 2.39%, #20D99B 97.66%);
+    margin: 0 6rem;
+    border-radius: 0 0 120px 20px;
+}
+
+.secondChild{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.secondChild img{
+    width: 25rem;
+    height: 25rem;
+}

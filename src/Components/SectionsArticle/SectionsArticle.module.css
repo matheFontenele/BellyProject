@@ -1,0 +1,50 @@
+.section{
+    margin: 3rem 4rem 0 7rem;
+    display: flex;
+}
+
+.section div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: var(--font-principal-color);
+}
+
+.section h1{
+    font-size: 2rem;
+}
+
+.section p{
+    font-size: .8rem;
+    max-width: 50%;
+}
+
+.section h3{
+    font-size: 1.2rem;
+    max-width: 651%;
+}
+
+.section span{
+    display: flex;
+    gap: 20px;
+}
+
+.section button{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.sistema{
+    background-color: var(--btn-verde);
+    color: var(--branco);
+}
+
+.saber{
+    background-color: transparent;
+}
+
+.section img{
+    width: 40rem;
+    height: 40rem;
+}
