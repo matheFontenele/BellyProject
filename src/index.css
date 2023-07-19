@@ -15,3 +15,9 @@
   --color-text: #666768;
   --font-principal:'Poppins', sans-serif;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
