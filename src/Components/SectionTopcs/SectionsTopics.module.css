@@ -1,0 +1,30 @@
+.section{
+    background-color: var(--btn-verde);
+    color: var(--branco);
+    padding: 2rem 8rem;
+}
+
+.ulTopics{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+    gap: 2rem 5rem;
+}
+
+.topicDivs{
+    background-color: var(--branco);
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--color-text);
+    font-size: .8rem;
+    max-width: 17rem;
+    box-shadow:
+  16.5px 12.4px 10px rgba(0, 0, 0, 0.11),
+  132px 99px 80px rgba(0, 0, 0, 0.22)
+;
+}
+
+.topicDivs h1{
+    color: #000000;
+    font-weight: 500;
+}

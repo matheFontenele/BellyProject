@@ -5,7 +5,9 @@ export default function SectionTopics(){
     return(
         <section className={stylus.section}>
             <h1>O que você vai encontrar aqui?</h1>
-            <TopctisMode/>
+                <div className={stylus.ulTopics}>
+                    <TopctisMode classe={stylus.topicDivs}/>
+                </div>  
         </section>
     )
 }

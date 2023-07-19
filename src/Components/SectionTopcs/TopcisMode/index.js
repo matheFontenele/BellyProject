@@ -1,15 +1,15 @@
 import Topics from 'Assets/Json/topcs'
 
-export default function TopctisMode(){
+export default function TopctisMode({classe}){
     return(
-        <div>
+        <>
             {Topics.map((topics) => (
-                <div key={topics.id}>
+                <div key={topics.id} className={classe}>
                     <img src={topics.icon} alt={topics.name}/>
                     <h1>{topics.name}</h1>
                     <p>{topics.text}</p>
                 </div>
             ))}
-        </div>
+        </>
     )
 }

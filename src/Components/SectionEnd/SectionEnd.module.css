@@ -1,0 +1,41 @@
+.section{
+    background: url('../../../public/bannerbacktech.png');
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 2rem;
+}
+
+.section div{
+    background-color: var(--branco);
+    max-width:min-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section div p{
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: var(--btn-verde);
+    min-height: 33%;
+}
+
+.section div button{
+    display: flex;
+    justify-content: center;
+    color: var(--btn-verde);
+    background-color: transparent;
+    border: 1px solid var(--btn-verde);
+    border-radius: 5px;
+    max-width: min-content;
+    align-self: center;
+    padding: 5px 30px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.muie{
+    position: absolute;
+    right: 0;
+    top: 105rem;
+}

@@ -21,10 +21,8 @@ export default function NavBar(){
                     Nosso Sistema
                 </LinksMenu>
 
-
+                <p><i className="fa-brands fa-telegram"></i>Compartilhe nosso material</p>
             </ul>
-
-            <p><i className="fa-brands fa-telegram"></i>Compartilhe nosso material</p>
         </nav>
     )
 }
